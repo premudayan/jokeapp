@@ -22,5 +22,9 @@ public class JokeController {
         return "index";
     }
 
+    @RequestMapping({"/sample"})
+    public  String getSample( ) {
+        return "sample";
+    }
 
 }
